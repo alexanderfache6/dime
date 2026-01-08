@@ -32,7 +32,10 @@ struct SettingsAppIconView: View {
       displaySubtitle: "An early prototype also designed by @rudra_dsigns that I kinda fancy."),
     AppIconBundle(
       actualFileName: "AppIcon4", exampleFileName: "AppIcon4_EG", displayName: "O.G.",
-      displaySubtitle: "Haphazardly put together in under 30 minutes, the original Dime icon.")
+      displaySubtitle: "Haphazardly put together in under 30 minutes, the original Dime icon."),
+    AppIconBundle(
+      actualFileName: "AppIcon5", exampleFileName: "AppIcon5_EG", displayName: "Gradient",
+      displaySubtitle: "Orange blue gradient.")
   ]
 
   @State private var position: Int?

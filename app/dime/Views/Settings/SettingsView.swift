@@ -37,6 +37,8 @@ struct SettingsView: View {
       return "Unicorn"
     } else if activeIcon == "AppIcon3" {
       return "v1.5"
+    } else if activeIcon == "AppIcon5" {
+      return "Gradient"
     } else {
       return "O.G."
     }
